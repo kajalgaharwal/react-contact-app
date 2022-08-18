@@ -35,11 +35,11 @@ function App() {
 
   return (
     <div className='container'>
-      <Router basename='/react-contact-app'>
+      <Router>
         <Header />
         <Routes>
           <Route
-            path='/'
+            path='/react-contact-app'
             exact
             element={
               <ContactList
