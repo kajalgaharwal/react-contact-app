@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className='container'>
-      <Router>
+      <Router basename='/react-contact-app'>
         <Header />
         <Routes>
           <Route
