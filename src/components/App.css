@@ -1,0 +1,23 @@
+.contact-box {
+  padding-bottom: 20px;
+  border: 2px solid #ffffff;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.header {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.contact-data {
+  padding: 10px 10px 5px 10px;
+  font-size: 1.3rem;
+}
+.trash {
+  cursor: pointer;
+  display: flex;
+  justify-content: end;
+  font-size: 1.6rem;
+  color: red;
+}
