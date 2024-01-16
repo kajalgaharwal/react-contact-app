@@ -39,7 +39,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            path='/react-contact-app'
+            path='/'
             exact
             element={
               <ContactList
